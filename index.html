@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎬 Видеоредактор</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <button title="Загрузить" id="uploadBtn">📁</button>
+      <button title="Текст" id="textBtn">🔤</button>
+      <button title="Экспорт" id="exportBtn">💾</button>
+      <input type="file" id="fileInput" hidden />
+    </aside>
+
+    <main class="editor">
+      <section class="video-area">
+        <video id="videoPreview" controls></video>
+      </section>
+      <section class="timeline">
+        <p>🎞️ Timeline (в разработке)</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
